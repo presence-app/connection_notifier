@@ -70,11 +70,12 @@ packages:
   internet_connection_checker:
     dependency: "direct main"
     description:
-      name: internet_connection_checker
-      sha256: "1c683e63e89c9ac66a40748b1b20889fd9804980da732bf2b58d6d5456c8e876"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0+1"
+      path: "."
+      ref: HEAD
+      resolved-ref: "15b9933fc8298017ceb6526f998cd56a77458de8"
+      url: "https://github.com/presence-app/internet_connection_checker.git"
+    source: git
+    version: "1.0.0+2"
   lints:
     dependency: transitive
     description:
